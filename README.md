@@ -212,15 +212,5 @@ The chatbot retrieves the most relevant chunks and generates contextual answers 
 - Vector store cleanup & re-ingest options  
 - Optional image captioning for better OCR context  
 - Cloud-hosted deployment on Render / HuggingFace Spaces  
-
+- Automating the embeddings store
 ---
-
-## 10. License
-This project is released under the **MIT License**.
-
----
-
-## 11. Author
-**P. Sharath Kalyan**  
-*Data Engineer | ML & Cloud Enthusiast*  
-GitHub: [https://github.com/<your-username>](https://github.com/)
