@@ -51,7 +51,7 @@ Before starting, ensure you have:
     ```
     C:\Program Files\Tesseract-OCR\tesseract.exe
     ```
-  - Add this path to your environment if necessary.
+  - Add this path to your environment.
 
 ---
 
@@ -192,25 +192,13 @@ The chatbot retrieves the most relevant chunks and generates contextual answers 
   ```python
   retriever = vectordb.as_retriever(search_kwargs={"k": 4})
   ```
-
+- Change the openai router key:
+  ```env
+    OPENAI_API_KEY=your_openrouter_api_key # You can able to get is from openrouter.ai
+  ```
+- Change the google drive folder id
+  ```env
+    DRIVE_FOLDER_ID=your_google_drive_folder_id
+  ```
 ---
 
-## 8. Troubleshooting
-
-| Issue | Cause | Fix |
-|-------|--------|-----|
-| `No text detected by OCR` | Image too blurry / small | Preprocess or upscale the image |
-| `ModuleNotFoundError: scripts.drive_utils` | Wrong working directory | Run scripts from project root |
-| `Permission denied for Drive` | Invalid service account permissions | Share Drive folder with your service account email |
-| `LangChainDeprecationWarning` | Old embedding import | Safe to ignore or upgrade to `langchain-huggingface` |
-
----
-
-## 9. Future Improvements
-
-- Streamlined in-memory Drive file reading (no temp file writes)  
-- Vector store cleanup & re-ingest options  
-- Optional image captioning for better OCR context  
-- Cloud-hosted deployment on Render / HuggingFace Spaces  
-- Automating the embeddings store
----
