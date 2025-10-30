@@ -59,8 +59,8 @@ Before starting, ensure you have:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/drive-rag-chatbot.git
-cd drive-rag-chatbot
+git clone https://github.com/sharathkalyan-mindgraph/ETL_CHATBOT.git
+cd ETL_CHATBOT
 ```
 
 ### Step 2: Create and Activate a Virtual Environment
