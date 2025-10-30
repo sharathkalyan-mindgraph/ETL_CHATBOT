@@ -1,0 +1,36 @@
+# Core LangChain & Community
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-community>=0.2.0
+
+# Embeddings (Local Easy Mode)
+torch>=2.0.0
+sentence-transformers>=2.2.2
+
+# Vector Store
+chroma-hnswlib>=0.7.0
+chromadb>=0.5.0
+
+# Utilities & Environment
+python-dotenv
+tqdm
+requests
+
+# Google Drive Access
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+
+# Document Processing
+pdfplumber
+pdfminer.six
+python-docx
+pillow
+pytesseract
+
+# Chat Interface
+streamlit
+
+# LLM API (OpenRouter via OpenAI client)
+openai>=1.0.0

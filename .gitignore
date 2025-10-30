@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+venv/
+.venv/
+
+# Virtualenvs
+.env/
+.env.local
+.env.*.local
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Data and DBs
+/data/
+data/
+*.db
+*.sqlite
+chroma_db/
+data/chroma_db/
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Credentials & secrets (DO NOT COMMIT)
+service-account.json
+.env
+*.pem
+*.key
+*.sqlite3
+
+# Logs
+*.log
