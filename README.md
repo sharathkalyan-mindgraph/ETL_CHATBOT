@@ -1,8 +1,8 @@
 
-# Drive RAG Chatbot – End-to-End ETL and Retrieval-Augmented Generation Pipeline
+# ETL Document Chatbot
 
 ## Overview
-The **Drive RAG Chatbot** is an end-to-end Retrieval-Augmented Generation (RAG) application that extracts documents from Google Drive, processes them into embeddings, and allows natural language querying through a Streamlit chat interface.
+The **ETL Document Chatbot** is an end-to-end Retrieval-Augmented Generation (RAG) application that extracts documents from Google Drive, processes them into embeddings, and allows natural language querying through a Streamlit chat interface.
 
 It integrates:
 - **Google Drive API** for document ingestion  
